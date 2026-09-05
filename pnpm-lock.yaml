@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@adonisjs/auth':
         specifier: ^9.4.2
-        version: 9.6.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/runner@4.5.0))
+        version: 9.6.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/runner@4.5.0))
       '@adonisjs/core':
         specifier: ^6.19.0
-        version: 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
+        version: 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
       '@adonisjs/cors':
         specifier: ^2.2.1
-        version: 2.2.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))
+        version: 2.2.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))
       '@adonisjs/drive':
         specifier: ^3.4.1
-        version: 3.4.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))
+        version: 3.4.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))
       '@adonisjs/lucid':
         specifier: ^21.8.0
-        version: 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)
+        version: 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)(supports-color@10.2.2)
       '@vinejs/vine':
         specifier: ^3.0.1
         version: 3.0.1
@@ -47,7 +47,7 @@ importers:
         version: 7.8.2(typescript@5.8.3)
       '@adonisjs/eslint-config':
         specifier: ^2.1.0
-        version: 2.1.2(eslint@9.39.4)(prettier@3.8.3)(typescript@5.8.3)
+        version: 2.1.2(eslint@9.39.4(supports-color@10.2.2))(prettier@3.8.3)(supports-color@10.2.2)(typescript@5.8.3)
       '@adonisjs/prettier-config':
         specifier: ^1.4.5
         version: 1.4.5
@@ -56,13 +56,13 @@ importers:
         version: 1.4.1
       '@japa/api-client':
         specifier: ^3.1.0
-        version: 3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)
+        version: 3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2)
       '@japa/assert':
         specifier: ^4.1.0
         version: 4.2.0(@japa/runner@4.5.0)
       '@japa/plugin-adonisjs':
         specifier: ^4.0.0
-        version: 4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/runner@4.5.0)
+        version: 4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/runner@4.5.0)
       '@japa/runner':
         specifier: ^4.3.0
         version: 4.5.0
@@ -77,7 +77,7 @@ importers:
         version: 24.12.2
       eslint:
         specifier: ^9.31.0
-        version: 9.39.4
+        version: 9.39.4(supports-color@10.2.2)
       hot-hook:
         specifier: ^0.4.0
         version: 0.4.0
@@ -89,7 +89,7 @@ importers:
         version: 3.8.3
       ts-node-maintained:
         specifier: ^10.9.5
-        version: 10.9.5(@swc/core@1.13.1)(@types/node@24.12.2)(typescript@5.8.3)
+        version: 10.9.6(@swc/core@1.13.1)(@types/node@24.12.2)(typescript@5.8.3)
       typescript:
         specifier: ~5.8.3
         version: 5.8.3
@@ -853,11 +853,6 @@ packages:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.14.1:
-    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-
   acorn@8.16.0:
     resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
     engines: {node: '>=0.4.0'}
@@ -1328,6 +1323,7 @@ packages:
   eslint@9.39.4:
     resolution: {integrity: sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2554,8 +2550,8 @@ packages:
   ts-morph@23.0.0:
     resolution: {integrity: sha512-FcvFx7a9E8TUe6T3ShihXJLiJOiqyafzFKUO4aqIHDUCIvADdGNShcbc2W5PMr3LerXRv7mafvFZ9lRENxJmug==}
 
-  ts-node-maintained@10.9.5:
-    resolution: {integrity: sha512-p8LJFxBTE3YZYGcOMxWKEpaY2nz55NyOg+mTDIOW/MrOIUTAAb7+UkleRu5z90P/fCVVv5pXN1/nb92G/tSNyw==}
+  ts-node-maintained@10.9.6:
+    resolution: {integrity: sha512-m/1ZCksNnIofWjmY5/K+6y8oia05Y/5+vMWTvuFzrr6UGRV7ImrLMyYAB06cHlwBW5/NuYeZoh44mAOGNRNxZA==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
@@ -2780,20 +2776,20 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@9.6.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/runner@4.5.0))':
+  '@adonisjs/auth@9.6.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/runner@4.5.0))':
     dependencies:
-      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
-      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))
+      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
+      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))
       '@poppinss/utils': 6.10.1
       basic-auth: 2.0.1
     optionalDependencies:
-      '@adonisjs/lucid': 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)
-      '@japa/api-client': 3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)
-      '@japa/plugin-adonisjs': 4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/runner@4.5.0)
+      '@adonisjs/lucid': 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)(supports-color@10.2.2)
+      '@japa/api-client': 3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2)
+      '@japa/plugin-adonisjs': 4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/runner@4.5.0)
     transitivePeerDependencies:
       - '@adonisjs/assembler'
 
-  '@adonisjs/bodyparser@10.1.4(@adonisjs/http-server@7.8.1(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))':
+  '@adonisjs/bodyparser@10.1.4(@adonisjs/http-server@7.8.1(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))(supports-color@10.2.2)':
     dependencies:
       '@adonisjs/http-server': 7.8.1(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7)
       '@paralleldrive/cuid2': 2.3.1
@@ -2802,7 +2798,7 @@ snapshots:
       '@poppinss/utils': 6.10.1
       '@types/qs': 6.15.0
       bytes: 3.1.2
-      file-type: 21.3.4
+      file-type: 21.3.4(supports-color@10.2.2)
       inflation: 2.1.0
       media-typer: 1.1.0
       qs: 6.15.1
@@ -2814,11 +2810,11 @@ snapshots:
     dependencies:
       '@poppinss/utils': 6.10.1
 
-  '@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)':
+  '@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)':
     dependencies:
       '@adonisjs/ace': 13.4.0
       '@adonisjs/application': 8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1)
-      '@adonisjs/bodyparser': 10.1.4(@adonisjs/http-server@7.8.1(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))
+      '@adonisjs/bodyparser': 10.1.4(@adonisjs/http-server@7.8.1(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))(supports-color@10.2.2)
       '@adonisjs/config': 5.0.3
       '@adonisjs/encryption': 6.0.2
       '@adonisjs/env': 6.2.0
@@ -2850,13 +2846,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@adonisjs/cors@2.2.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))':
+  '@adonisjs/cors@2.2.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))':
     dependencies:
-      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
+      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
 
-  '@adonisjs/drive@3.4.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))':
+  '@adonisjs/drive@3.4.1(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))':
     dependencies:
-      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
+      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
       flydrive: 1.3.0
 
   '@adonisjs/encryption@6.0.2':
@@ -2870,25 +2866,25 @@ snapshots:
       dotenv: 16.6.1
       split-lines: 3.0.0
 
-  '@adonisjs/eslint-config@2.1.2(eslint@9.39.4)(prettier@3.8.3)(typescript@5.8.3)':
+  '@adonisjs/eslint-config@2.1.2(eslint@9.39.4(supports-color@10.2.2))(prettier@3.8.3)(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
-      '@adonisjs/eslint-plugin': 2.2.2(eslint@9.39.4)(typescript@5.8.3)
-      '@stylistic/eslint-plugin': 5.10.0(eslint@9.39.4)
-      eslint: 9.39.4
-      eslint-config-prettier: 10.1.8(eslint@9.39.4)
-      eslint-plugin-prettier: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4))(eslint@9.39.4)(prettier@3.8.3)
-      eslint-plugin-unicorn: 60.0.0(eslint@9.39.4)
+      '@adonisjs/eslint-plugin': 2.2.2(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      '@stylistic/eslint-plugin': 5.10.0(eslint@9.39.4(supports-color@10.2.2))
+      eslint: 9.39.4(supports-color@10.2.2)
+      eslint-config-prettier: 10.1.8(eslint@9.39.4(supports-color@10.2.2))
+      eslint-plugin-prettier: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(supports-color@10.2.2)))(eslint@9.39.4(supports-color@10.2.2))(prettier@3.8.3)
+      eslint-plugin-unicorn: 60.0.0(eslint@9.39.4(supports-color@10.2.2))
       prettier: 3.8.3
-      typescript-eslint: 8.59.1(eslint@9.39.4)(typescript@5.8.3)
+      typescript-eslint: 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
     transitivePeerDependencies:
       - '@types/eslint'
       - supports-color
       - typescript
 
-  '@adonisjs/eslint-plugin@2.2.2(eslint@9.39.4)(typescript@5.8.3)':
+  '@adonisjs/eslint-plugin@2.2.2(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
-      eslint: 9.39.4
+      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      eslint: 9.39.4(supports-color@10.2.2)
       micromatch: 4.0.8
       read-package-up: 12.0.0
     transitivePeerDependencies:
@@ -2953,10 +2949,10 @@ snapshots:
       abstract-logging: 2.0.1
       pino: 10.3.1
 
-  '@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)':
+  '@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@vinejs/vine@3.0.1)(luxon@3.7.2)(pg@8.20.0)(supports-color@10.2.2)':
     dependencies:
-      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
-      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))
+      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
+      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))
       '@faker-js/faker': 9.9.0
       '@poppinss/hooks': 7.3.0
       '@poppinss/macroable': 1.1.2
@@ -2964,8 +2960,8 @@ snapshots:
       fast-deep-equal: 3.1.3
       igniculus: 1.5.0
       kleur: 4.1.5
-      knex: 3.2.9(pg@8.20.0)
-      knex-dynamic-connection: 3.2.0(pg@8.20.0)
+      knex: 3.2.9(pg@8.20.0)(supports-color@10.2.2)
+      knex-dynamic-connection: 3.2.0(pg@8.20.0)(supports-color@10.2.2)
       pretty-hrtime: 1.0.3
       qs: 6.15.1
       slash: 5.1.0
@@ -2985,9 +2981,9 @@ snapshots:
       - supports-color
       - tedious
 
-  '@adonisjs/presets@2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))':
+  '@adonisjs/presets@2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))':
     dependencies:
-      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
+      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
       '@poppinss/utils': 6.10.1
     optionalDependencies:
       '@adonisjs/assembler': 7.8.2(typescript@5.8.3)
@@ -3049,17 +3045,17 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@9.39.4)':
+  '@eslint-community/eslint-utils@4.9.1(eslint@9.39.4(supports-color@10.2.2))':
     dependencies:
-      eslint: 9.39.4
+      eslint: 9.39.4(supports-color@10.2.2)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.2': {}
 
-  '@eslint/config-array@0.21.2':
+  '@eslint/config-array@0.21.2(supports-color@10.2.2)':
     dependencies:
       '@eslint/object-schema': 2.1.7
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       minimatch: 3.1.5
     transitivePeerDependencies:
       - supports-color
@@ -3076,10 +3072,10 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/eslintrc@3.3.5':
+  '@eslint/eslintrc@3.3.5(supports-color@10.2.2)':
     dependencies:
       ajv: 6.15.0
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       espree: 10.4.0
       globals: 14.0.0
       ignore: 5.3.2
@@ -3122,7 +3118,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)':
+  '@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2)':
     dependencies:
       '@japa/runner': 4.5.0
       '@poppinss/hooks': 7.2.5
@@ -3130,7 +3126,7 @@ snapshots:
       '@types/superagent': 8.1.9
       cookie: 1.0.2
       set-cookie-parser: 2.7.1
-      superagent: 10.2.1
+      superagent: 10.2.1(supports-color@10.2.2)
     optionalDependencies:
       '@japa/assert': 4.2.0(@japa/runner@4.5.0)
     transitivePeerDependencies:
@@ -3160,12 +3156,12 @@ snapshots:
       supports-color: 10.2.2
       youch: 4.1.1
 
-  '@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0))(@japa/runner@4.5.0)':
+  '@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2))(@japa/api-client@3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2))(@japa/runner@4.5.0)':
     dependencies:
-      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)
+      '@adonisjs/core': 6.21.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(supports-color@10.2.2)
       '@japa/runner': 4.5.0
     optionalDependencies:
-      '@japa/api-client': 3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)
+      '@japa/api-client': 3.1.0(@japa/assert@4.2.0(@japa/runner@4.5.0))(@japa/runner@4.5.0)(supports-color@10.2.2)
 
   '@japa/runner@4.5.0':
     dependencies:
@@ -3367,11 +3363,11 @@ snapshots:
 
   '@speed-highlight/core@1.2.15': {}
 
-  '@stylistic/eslint-plugin@5.10.0(eslint@9.39.4)':
+  '@stylistic/eslint-plugin@5.10.0(eslint@9.39.4(supports-color@10.2.2))':
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(supports-color@10.2.2))
       '@typescript-eslint/types': 8.59.1
-      eslint: 9.39.4
+      eslint: 9.39.4(supports-color@10.2.2)
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
       estraverse: 5.3.0
@@ -3429,9 +3425,9 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@tokenizer/inflate@0.4.1':
+  '@tokenizer/inflate@0.4.1(supports-color@10.2.2)':
     dependencies:
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       token-types: 6.1.2
     transitivePeerDependencies:
       - supports-color
@@ -3491,15 +3487,15 @@ snapshots:
 
   '@types/validator@13.15.0': {}
 
-  '@typescript-eslint/eslint-plugin@8.59.1(@typescript-eslint/parser@8.59.1(eslint@9.39.4)(typescript@5.8.3))(eslint@9.39.4)(typescript@5.8.3)':
+  '@typescript-eslint/eslint-plugin@8.59.1(@typescript-eslint/parser@8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3))(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
       '@typescript-eslint/scope-manager': 8.59.1
-      '@typescript-eslint/type-utils': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
-      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
+      '@typescript-eslint/type-utils': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 8.59.1
-      eslint: 9.39.4
+      eslint: 9.39.4(supports-color@10.2.2)
       ignore: 7.0.5
       natural-compare: 1.4.0
       ts-api-utils: 2.5.0(typescript@5.8.3)
@@ -3507,23 +3503,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@8.59.1(eslint@9.39.4)(typescript@5.8.3)':
+  '@typescript-eslint/parser@8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/scope-manager': 8.59.1
       '@typescript-eslint/types': 8.59.1
-      '@typescript-eslint/typescript-estree': 8.59.1(typescript@5.8.3)
+      '@typescript-eslint/typescript-estree': 8.59.1(supports-color@10.2.2)(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 8.59.1
-      debug: 4.4.3
-      eslint: 9.39.4
+      debug: 4.4.3(supports-color@10.2.2)
+      eslint: 9.39.4(supports-color@10.2.2)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/project-service@8.59.1(typescript@5.8.3)':
+  '@typescript-eslint/project-service@8.59.1(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.59.1(typescript@5.8.3)
       '@typescript-eslint/types': 8.59.1
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -3537,13 +3533,13 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  '@typescript-eslint/type-utils@8.59.1(eslint@9.39.4)(typescript@5.8.3)':
+  '@typescript-eslint/type-utils@8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/types': 8.59.1
-      '@typescript-eslint/typescript-estree': 8.59.1(typescript@5.8.3)
-      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
-      debug: 4.4.3
-      eslint: 9.39.4
+      '@typescript-eslint/typescript-estree': 8.59.1(supports-color@10.2.2)(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      debug: 4.4.3(supports-color@10.2.2)
+      eslint: 9.39.4(supports-color@10.2.2)
       ts-api-utils: 2.5.0(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -3551,13 +3547,13 @@ snapshots:
 
   '@typescript-eslint/types@8.59.1': {}
 
-  '@typescript-eslint/typescript-estree@8.59.1(typescript@5.8.3)':
+  '@typescript-eslint/typescript-estree@8.59.1(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/project-service': 8.59.1(typescript@5.8.3)
+      '@typescript-eslint/project-service': 8.59.1(supports-color@10.2.2)(typescript@5.8.3)
       '@typescript-eslint/tsconfig-utils': 8.59.1(typescript@5.8.3)
       '@typescript-eslint/types': 8.59.1
       '@typescript-eslint/visitor-keys': 8.59.1
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       minimatch: 10.2.5
       semver: 7.7.4
       tinyglobby: 0.2.16
@@ -3566,13 +3562,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.59.1(eslint@9.39.4)(typescript@5.8.3)':
+  '@typescript-eslint/utils@8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(supports-color@10.2.2))
       '@typescript-eslint/scope-manager': 8.59.1
       '@typescript-eslint/types': 8.59.1
-      '@typescript-eslint/typescript-estree': 8.59.1(typescript@5.8.3)
-      eslint: 9.39.4
+      '@typescript-eslint/typescript-estree': 8.59.1(supports-color@10.2.2)(typescript@5.8.3)
+      eslint: 9.39.4(supports-color@10.2.2)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -3624,19 +3620,13 @@ snapshots:
       mime-types: 2.1.35
       negotiator: 0.6.3
 
-  acorn-jsx@5.3.2(acorn@8.14.1):
-    dependencies:
-      acorn: 8.14.1
-
   acorn-jsx@5.3.2(acorn@8.16.0):
     dependencies:
       acorn: 8.16.0
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.14.1
-
-  acorn@8.14.1: {}
+      acorn: 8.16.0
 
   acorn@8.16.0: {}
 
@@ -3922,13 +3912,17 @@ snapshots:
 
   dayjs@1.11.13: {}
 
-  debug@4.3.4:
+  debug@4.3.4(supports-color@10.2.2):
     dependencies:
       ms: 2.1.2
+    optionalDependencies:
+      supports-color: 10.2.2
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@10.2.2):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 10.2.2
 
   dedent@1.6.0: {}
 
@@ -4016,29 +4010,29 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@10.1.8(eslint@9.39.4):
+  eslint-config-prettier@10.1.8(eslint@9.39.4(supports-color@10.2.2)):
     dependencies:
-      eslint: 9.39.4
+      eslint: 9.39.4(supports-color@10.2.2)
 
-  eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4))(eslint@9.39.4)(prettier@3.8.3):
+  eslint-plugin-prettier@5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.4(supports-color@10.2.2)))(eslint@9.39.4(supports-color@10.2.2))(prettier@3.8.3):
     dependencies:
-      eslint: 9.39.4
+      eslint: 9.39.4(supports-color@10.2.2)
       prettier: 3.8.3
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.12
     optionalDependencies:
-      eslint-config-prettier: 10.1.8(eslint@9.39.4)
+      eslint-config-prettier: 10.1.8(eslint@9.39.4(supports-color@10.2.2))
 
-  eslint-plugin-unicorn@60.0.0(eslint@9.39.4):
+  eslint-plugin-unicorn@60.0.0(eslint@9.39.4(supports-color@10.2.2)):
     dependencies:
       '@babel/helper-validator-identifier': 7.28.5
-      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(supports-color@10.2.2))
       '@eslint/plugin-kit': 0.3.5
       change-case: 5.4.4
       ci-info: 4.4.0
       clean-regexp: 1.0.0
       core-js-compat: 3.49.0
-      eslint: 9.39.4
+      eslint: 9.39.4(supports-color@10.2.2)
       esquery: 1.7.0
       find-up-simple: 1.0.1
       globals: 16.5.0
@@ -4062,14 +4056,14 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
-  eslint@9.39.4:
+  eslint@9.39.4(supports-color@10.2.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4(supports-color@10.2.2))
       '@eslint-community/regexpp': 4.12.2
-      '@eslint/config-array': 0.21.2
+      '@eslint/config-array': 0.21.2(supports-color@10.2.2)
       '@eslint/config-helpers': 0.4.2
       '@eslint/core': 0.17.0
-      '@eslint/eslintrc': 3.3.5
+      '@eslint/eslintrc': 3.3.5(supports-color@10.2.2)
       '@eslint/js': 9.39.4
       '@eslint/plugin-kit': 0.4.1
       '@humanfs/node': 0.16.8
@@ -4079,7 +4073,7 @@ snapshots:
       ajv: 6.15.0
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       escape-string-regexp: 4.0.0
       eslint-scope: 8.4.0
       eslint-visitor-keys: 4.2.1
@@ -4111,8 +4105,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.14.1
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       eslint-visitor-keys: 3.4.3
 
   esprima-extract-comments@1.1.0:
@@ -4193,9 +4187,9 @@ snapshots:
     dependencies:
       flat-cache: 4.0.1
 
-  file-type@21.3.4:
+  file-type@21.3.4(supports-color@10.2.2):
     dependencies:
-      '@tokenizer/inflate': 0.4.1
+      '@tokenizer/inflate': 0.4.1(supports-color@10.2.2)
       strtok3: 10.3.5
       token-types: 6.1.2
       uint8array-extras: 1.5.0
@@ -4472,10 +4466,10 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  knex-dynamic-connection@3.2.0(pg@8.20.0):
+  knex-dynamic-connection@3.2.0(pg@8.20.0)(supports-color@10.2.2):
     dependencies:
-      debug: 4.4.3
-      knex: 3.2.9(pg@8.20.0)
+      debug: 4.4.3(supports-color@10.2.2)
+      knex: 3.2.9(pg@8.20.0)(supports-color@10.2.2)
     transitivePeerDependencies:
       - better-sqlite3
       - mysql
@@ -4487,11 +4481,11 @@ snapshots:
       - supports-color
       - tedious
 
-  knex@3.2.9(pg@8.20.0):
+  knex@3.2.9(pg@8.20.0)(supports-color@10.2.2):
     dependencies:
       colorette: 2.0.19
       commander: 10.0.1
-      debug: 4.3.4
+      debug: 4.3.4(supports-color@10.2.2)
       escalade: 3.2.0
       esm: 3.2.25
       get-package-type: 0.1.0
@@ -5149,11 +5143,11 @@ snapshots:
     dependencies:
       '@tokenizer/token': 0.3.0
 
-  superagent@10.2.1:
+  superagent@10.2.1(supports-color@10.2.2):
     dependencies:
       component-emitter: 1.3.1
       cookiejar: 2.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       fast-safe-stringify: 2.1.1
       form-data: 4.0.2
       formidable: 3.5.4
@@ -5223,7 +5217,7 @@ snapshots:
       '@ts-morph/common': 0.24.0
       code-block-writer: 13.0.3
 
-  ts-node-maintained@10.9.5(@swc/core@1.13.1)(@types/node@24.12.2)(typescript@5.8.3):
+  ts-node-maintained@10.9.6(@swc/core@1.13.1)(@types/node@24.12.2)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
@@ -5231,7 +5225,7 @@ snapshots:
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
       '@types/node': 24.12.2
-      acorn: 8.14.1
+      acorn: 8.16.0
       acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
@@ -5263,13 +5257,13 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typescript-eslint@8.59.1(eslint@9.39.4)(typescript@5.8.3):
+  typescript-eslint@8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3):
     dependencies:
-      '@typescript-eslint/eslint-plugin': 8.59.1(@typescript-eslint/parser@8.59.1(eslint@9.39.4)(typescript@5.8.3))(eslint@9.39.4)(typescript@5.8.3)
-      '@typescript-eslint/parser': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
-      '@typescript-eslint/typescript-estree': 8.59.1(typescript@5.8.3)
-      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4)(typescript@5.8.3)
-      eslint: 9.39.4
+      '@typescript-eslint/eslint-plugin': 8.59.1(@typescript-eslint/parser@8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3))(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      '@typescript-eslint/typescript-estree': 8.59.1(supports-color@10.2.2)(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.59.1(eslint@9.39.4(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.8.3)
+      eslint: 9.39.4(supports-color@10.2.2)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
